@@ -667,7 +667,7 @@ def initialize(
     tpu_addr = tpu_addr.replace("grpc://", "")
     tpu_addr_without_port = tpu_addr.split(":")[0]
     requests.post(
-        f"http://{tpu_addr_without_port}:8475/requestversion/{driver_version}"
+        f"http://{tpu_addr_without_port}:8475/requestversion/tpu_driver0.2"
     )
     jax.config.FLAGS.jax_xla_backend = "tpu_driver"
     jax.config.FLAGS.jax_backend_target = "grpc://" + tpu_addr
