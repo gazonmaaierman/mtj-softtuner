@@ -14,7 +14,7 @@ setup(
     cmdclass=versioneer.get_cmdclass(),
     author="VE FORBRYDERNE",
     author_email="ve.forbryderne@gmail.com",
-    url="https://github.com/ve-forbryderne/mtj-softtuner",
+    url="https://github.com/gazonmaaierman/mtj-softtuner",
     packages=find_packages(),
     package_data={"": ["*.json", "*.py", "**/*.py", "kobold/maps/*.json"]},
     include_package_data=True,

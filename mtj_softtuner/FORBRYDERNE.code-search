@@ -1,0 +1,54 @@
+# Query: FORBRYDERNE
+# ContextLines: 1
+
+33 results - 5 files
+
+install.sh:
+  18      git config commit.gpgsign false
+  19:     git remote add origin https://github.com/gazonmaaierman/mtj-softtuner
+  20      git fetch -qa
+
+mtj-softtuner.ipynb:
+    8     "source": [
+    9:     "# [mtj-softtuner](https://github.com/gazonmaaierman/mtj-softtuner) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gazonmaaierman/mtj-softtuner/blob/main/mtj-softtuner.ipynb)\n",
+   10      "\n",
+   11: tps://github.com/gazonmaaierman/mtj-softtuner/workflows/Tests/badge.svg)](https://github.com/gazonmaaierman/mtj-softtuner/actions/workflows/python-package.yml) [![GitHub license](https://img.shields.io/github/license/gazonmaaierman/mtj-softtuner?color=informational)](https://github.com/gazonmaaierman/mtj-softtuner/blob/main/LICENSE) [![GitHub release (latest by date)](https://img.shields.io/github/v/release/gazonmaaierman/mtj-softtuner)](https://github.com/gazonmaaierman/mtj-softtuner/releases) [![Codacy Badge](https://app.codacy.com/project/badge/Coverage/5d95207f6e784dc2b56490c7bd8bb439)](https://www.codacy.com/gh/gazonmaaierman/mtj-softtuner/dashboard?utm_source=github.com&utm_medium=referral&utm_content=gazonmaaierman/mtj-softtuner&utm_campaign=Badge_Coverage) [![Codacy Badge](https://app.codacy.com/project/badge/Grade/5d95207f6e784dc2b56490c7bd8bb439)](https://www.codacy.com/gh/gazonmaaierman/mtj-softtuner/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=VE-
+   12      "\n",
+
+   51      "\n",
+   52:     "!git clone https://github.com/gazonmaaierman/mtj-softtuner\n",
+   53      "!bash mtj-softtuner/install.sh\n",
+
+  143      "# notebook:\n",
+  144:     "# https://colab.research.google.com/github/gazonmaaierman/mesh-transformer-jax/blob/modelcompat/convert_neo_pytorch_model_to_jax.ipynb\n",
+  145      "\n",
+
+  149      "# This fork contains a small patch to address the issue.\n",
+  150:     "!git clone https://github.com/gazonmaaierman/pv\n",
+  151      "%cd pv\n",
+
+README.md:
+   1: # mtj-softtuner [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gazonmaaierman/mtj-softtuner/blob/main/mtj-softtuner.ipynb)
+   2  
+   3: tps://github.com/gazonmaaierman/mtj-softtuner/workflows/Tests/badge.svg)](https://github.com/gazonmaaierman/mtj-softtuner/actions/workflows/python-package.yml) [![GitHub license](https://img.shields.io/github/license/gazonmaaierman/mtj-softtuner?color=informational)](https://github.com/gazonmaaierman/mtj-softtuner/blob/main/LICENSE) [![GitHub release (latest by date)](https://img.shields.io/github/v/release/gazonmaaierman/mtj-softtuner)](https://github.com/gazonmaaierman/mtj-softtuner/releases) [![Codacy Badge](https://app.codacy.com/project/badge/Coverage/5d95207f6e784dc2b56490c7bd8bb439)](https://www.codacy.com/gh/gazonmaaierman/mtj-softtuner/dashboard?utm_source=github.com&utm_medium=referral&utm_content=gazonmaaierman/mtj-softtuner&utm_campaign=Badge_Coverage) [![Codacy Badge](https://app.codacy.com/project/badge/Grade/5d95207f6e784dc2b56490c7bd8bb439)](https://www.codacy.com/gh/gazonmaaierman/mtj-softtuner/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=VE-
+   4  
+
+  12  
+  13: If you're not a programmer or you want a demo of how to use the API, [click here to open the demo notebook.](https://colab.research.google.com/github/gazonmaaierman/mtj-softtuner/blob/main/mtj-softtuner.ipynb)
+  14  
+
+  19  ```bash
+  20: git clone https://github.com/gazonmaaierman/mtj-softtuner
+  21  bash mtj-softtuner/install.sh
+
+requirements.txt:
+   9  progressbar2
+  10: mesh_transformer @ git+https://github.com/gazonmaaierman/mesh-transformer-jax#egg=mesh_transformer
+  11  ftfy
+
+setup.py:
+  14      cmdclass=versioneer.get_cmdclass(),
+  15:     author="VE FORBRYDERNE",
+  16:     author_email="ve.forbryderne@gmail.com",
+  17:     url="https://github.com/gazonmaaierman/mtj-softtuner",
+  18      packages=find_packages(),

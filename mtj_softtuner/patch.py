@@ -57,7 +57,7 @@ def patch(f: __F) -> __F:
         # go to the current jax.tree_multimap (which is the same as the JAX 0.2.13
         # versions of both jax.tree_map and jax.tree_multimap) for compatibility
         # with optax.
-        jax.tree_map = jax.tree_multimap
+        #jax.tree_map = jax.tree_multimap
 
         # Colab doesn't seem to like ReplicatedLayerNorm, so we're just going to use
         # haiku's standard LayerNorm modules, which we can do because we aren't going

@@ -1,6 +1,6 @@
-# mtj-softtuner [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/VE-FORBRYDERNE/mtj-softtuner/blob/main/mtj-softtuner.ipynb)
+# mtj-softtuner [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gazonmaaierman/mtj-softtuner/blob/main/mtj-softtuner.ipynb)
 
-[![Python package](https://github.com/VE-FORBRYDERNE/mtj-softtuner/workflows/Tests/badge.svg)](https://github.com/VE-FORBRYDERNE/mtj-softtuner/actions/workflows/python-package.yml) [![GitHub license](https://img.shields.io/github/license/VE-FORBRYDERNE/mtj-softtuner?color=informational)](https://github.com/VE-FORBRYDERNE/mtj-softtuner/blob/main/LICENSE) [![GitHub release (latest by date)](https://img.shields.io/github/v/release/VE-FORBRYDERNE/mtj-softtuner)](https://github.com/VE-FORBRYDERNE/mtj-softtuner/releases) [![Codacy Badge](https://app.codacy.com/project/badge/Coverage/5d95207f6e784dc2b56490c7bd8bb439)](https://www.codacy.com/gh/VE-FORBRYDERNE/mtj-softtuner/dashboard?utm_source=github.com&utm_medium=referral&utm_content=VE-FORBRYDERNE/mtj-softtuner&utm_campaign=Badge_Coverage) [![Codacy Badge](https://app.codacy.com/project/badge/Grade/5d95207f6e784dc2b56490c7bd8bb439)](https://www.codacy.com/gh/VE-FORBRYDERNE/mtj-softtuner/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=VE-FORBRYDERNE/mtj-softtuner&amp;utm_campaign=Badge_Grade) [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Python package](https://github.com/gazonmaaierman/mtj-softtuner/workflows/Tests/badge.svg)](https://github.com/gazonmaaierman/mtj-softtuner/actions/workflows/python-package.yml) [![GitHub license](https://img.shields.io/github/license/gazonmaaierman/mtj-softtuner?color=informational)](https://github.com/gazonmaaierman/mtj-softtuner/blob/main/LICENSE) [![GitHub release (latest by date)](https://img.shields.io/github/v/release/gazonmaaierman/mtj-softtuner)](https://github.com/gazonmaaierman/mtj-softtuner/releases) [![Codacy Badge](https://app.codacy.com/project/badge/Coverage/5d95207f6e784dc2b56490c7bd8bb439)](https://www.codacy.com/gh/gazonmaaierman/mtj-softtuner/dashboard?utm_source=github.com&utm_medium=referral&utm_content=gazonmaaierman/mtj-softtuner&utm_campaign=Badge_Coverage) [![Codacy Badge](https://app.codacy.com/project/badge/Grade/5d95207f6e784dc2b56490c7bd8bb439)](https://www.codacy.com/gh/gazonmaaierman/mtj-softtuner/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=gazonmaaierman/mtj-softtuner&amp;utm_campaign=Badge_Grade) [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 ### (Unofficial Mesh Transformer JAX soft-tuning notebook)
 
@@ -10,14 +10,14 @@ See this paper https://arxiv.org/pdf/2104.08691.pdf for more information about w
 
 ## Quickstart
 
-If you're not a programmer or you want a demo of how to use the API, [click here to open the demo notebook.](https://colab.research.google.com/github/VE-FORBRYDERNE/mtj-softtuner/blob/main/mtj-softtuner.ipynb)
+If you're not a programmer or you want a demo of how to use the API, [click here to open the demo notebook.](https://colab.research.google.com/github/gazonmaaierman/mtj-softtuner/blob/main/mtj-softtuner.ipynb)
 
 ## API Usage
 
 To install mtj-softtuner in a TPU Colab notebook, run these commands:
 
 ```bash
-git clone https://github.com/ve-forbryderne/mtj-softtuner
+git clone https://github.com/gazonmaaierman/mtj-softtuner
 bash mtj-softtuner/install.sh
 ```
 

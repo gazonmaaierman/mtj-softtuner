@@ -1,6 +1,9 @@
 from .. import core
 from .. import trainer_base
 
+import jax.tools.colab_tpu
+jax.tools.colab_tpu.setup_tpu()
+
 import os
 import itertools
 import jax.numpy as jnp

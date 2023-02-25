@@ -2,7 +2,7 @@
 set -e
 cd "$(dirname ${BASH_SOURCE[0]})"
 Format=" "
-hash="$Format:%H$"
+hash="751fb404d1733d0916103ba2e0b852dbf2eb98f3"
 if [[ $hash != "" && $hash != *" "* && ! -d ".git" ]]; then
     # This executes only if you downloaded this repository using GitHub's API
     # (e.g. by using the "Download ZIP" link on this repository's GitHub page
@@ -16,7 +16,7 @@ if [[ $hash != "" && $hash != *" "* && ! -d ".git" ]]; then
     # string.
     git init
     git config commit.gpgsign false
-    git remote add origin https://github.com/ve-forbryderne/mtj-softtuner
+    git remote add origin https://github.com/gazonmaaierman/mtj-softtuner
     git fetch -qa
     git checkout -qb _alpha
     git add .
