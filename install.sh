@@ -36,3 +36,4 @@ git submodule update --remote --init --recursive
 ${1:-python3} -m pip uninstall -y mtj-softtuner
 ${1:-python3} -m pip install .
 apt install aria2 2> /dev/null || true  # For faster model downloads in Colab
+pip install "jax[tpu]>=0.2.16" -f https://storage.googleapis.com/jax-releases/libtpu_releases.html
