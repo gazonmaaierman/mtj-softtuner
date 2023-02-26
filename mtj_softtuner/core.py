@@ -34,6 +34,8 @@ import mesh_transformer.layers
 import mesh_transformer.transformer_shard
 import transformers
 
+import jax.tools.colab_tpu
+jax.tools.colab_tpu.setup_tpu()
 
 BACKEND = "kaggle"
 
