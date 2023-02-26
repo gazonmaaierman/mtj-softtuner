@@ -637,7 +637,7 @@ def show_spinner() -> multiprocessing.Process:
 
 
 def initialize(
-    quiet: Optional[bool] = None, driver_version="tpu_driver0.1_dev20210607"
+    quiet: Optional[bool] = None, driver_version="tpu_driver0.2"
 ):
     if quiet is None:
         quiet = exceptions.default_quiet
